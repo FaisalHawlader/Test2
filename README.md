@@ -1,13 +1,7 @@
 # CPPND: Capstone Snake Game Example
 . There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
 and right snake command: i, j, k, l (up, left, down, right)
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
-
-<img src="./data/snake_game.png"/>
-
-<img src="./data/snake_game_left_vs_right.gif"/>
-
-Blue Snake if Left, Green Snake is Right, Red Snake is Viper(Cannot be touched), Yellow ones are food.
+. Blue Snake if Left, Green Snake is Right, Red Snake is Viper(Cannot be touched), Yellow ones are food.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
