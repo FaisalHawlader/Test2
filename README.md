@@ -1,5 +1,6 @@
 # CPPND: Capstone Snake Game Example
-## (Friendly Advide: When you feel boring, you can use your left hand to compete with your right hand. hhh)
+. There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
+and right snake command: i, j, k, l (up, left, down, right)
 This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
 
 <img src="./data/snake_game.png"/>
