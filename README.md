@@ -1,5 +1,6 @@
 # CPPND: Capstone Snake Game Example
 * Compared to the starter code, many additional features were added to upgrade the game using advanced object-oriented programming (Classes & Inheritance), dynamic memory management (Smart Pointers), and Concurrency (Multi threads & mutex locks) techniques.
+* Three snake in the game
 * There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
 and right snake command: i, j, k, l (up, left, down, right)
 * Blue Snake if Left, Green Snake is Right, Red Snake is Viper(Cannot be touched, if you touch then game over), Yellow ones are food.
