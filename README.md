@@ -25,10 +25,6 @@ and right snake command: i, j, k, l (up, left, down, right)
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-### Commands to operate this game
-Left Command: w, a, s, d (Up, Left, Down, Right)
-Right Command: i, j, k, l (Up, Left, Down, Right)
-
 # CPPND Capstone: Upgraded Snake Game
 
 This is a Snake Game for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). This code was modified from a base starter repo created by Udacity that was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
