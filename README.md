@@ -1,4 +1,4 @@
-# CPPND: Capstone Left VS Right Snake Game
+# CPPND: Capstone Snake Game Example
 ## (Friendly Advide: When you feel boring, you can use your left hand to compete with your right hand. hhh)
 This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
 
