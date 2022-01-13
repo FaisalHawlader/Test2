@@ -28,10 +28,14 @@ and right snake command: i, j, k, l (up, left, down, right)
 4. Run it: `./SnakeGame`.
 
 ## How To Play Game
-* Use keyboard arrows to move your snake (Head color = Blue).
-* Eat food (Color = Yellow) to get points. When your snake eat food, the speed of the game and body of all snakes in the game will increase.
-* Do NOT touch opponent snakes (Head color = pink) with your snake's head. (Your snake body touching another snake's body is okay). The game will end when it happens.
-* Eat Power Food (Color = Cyan) to activate "Immortal Mode" for 5 seconds. When you are in Immortal Mode, you do not die even if your snake's head touches another snake.
+* There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
+and right snake command: 
+* Use keyboard arrows to move your snake
+* Blue Snake is Left, 
+* Green Snake is Right, 
+* Red Snake is Viper(Cannot be touched, if you touch then game over), 
+* To get points eat food, Yellow ones are food.
+* to get points. When your snake eat food, the speed of the game and body of all snakes in the game will increase.
 
 ## Rubric
 
