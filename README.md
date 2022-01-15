@@ -1,9 +1,9 @@
 # CPPND: Capstone Snake Game Example
 * Compared to the starter code, many additional features were added to upgrade the game using advanced object-oriented programming (Classes & Inheritance), dynamic memory management (Smart Pointers), and Concurrency (Multi threads & mutex locks) techniques.
-* Three snake in the game
-* There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
+* Three snakes are in the game
+* There are two players to compete against each other, and you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
 and right snake command: i, j, k, l (up, left, down, right)
-* Blue Snake if Left, Green Snake is Right, Red Snake is Viper(Cannot be touched, if you touch then game over), Yellow ones are food.
+* Blue Snake is Left, Green Snake is Right, Red Snake is Viper(Cannot be touched, if you touch then game over), Yellow ones are food.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -22,20 +22,18 @@ and right snake command: i, j, k, l (up, left, down, right)
 
 ## Basic Build Instructions
 
-1. Clone this repo.
+1. Clone this repo/navigate to the root directory
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-## How To Play Game
-* There are two players to compete against each other, but you need to use two hands to control the left snake command: w, a, s, d (Up, left, down, right)
-and right snake command: 
+## How To Play Game 
 * Use keyboard arrows to move your snake
-* Blue Snake is Left, 
-* Green Snake is Right, 
+* Blue Snake is Left, command: w, a, s, d (Up, left, down, right)
+* Green Snake is Right, command: i, j, k, l (up, left, down, right)
 * Red Snake is Viper(Cannot be touched, if you touch then game over), 
 * To get points eat food, Yellow ones are food.
-* to get points. When your snake eat food, the speed of the game and body of all snakes in the game will increase.
+* When your snake eat food, the speed of the game and body of all snakes in the game will increase.
 
 ## Rubric
 
