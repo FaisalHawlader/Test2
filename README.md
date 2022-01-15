@@ -57,7 +57,7 @@ __Loops, Functions, I/O__
 |-- | -- | --| -- |
 | :heavy_check_mark: | The project demonstrates an understanding of C++ functions and control structures.| A variety of control structures are used in the project. <br />The project code is clearly organized into functions.| Every *.cpp file |
 |  | The project reads data from a file and process the data, or the program writes data to a file. | The project reads data from an external file or writes data to a file as part of the necessary operation of the program.|   |
-| :heavy_check_mark: | The project accepts user input and processes the input.|The project accepts input from a user as part of the necessary operation of the program.|  game.cpp (Line 85) |
+| :heavy_check_mark: | The project accepts user input and processes the input.|The project accepts input from a user as part of the necessary operation of the program.|  game.cpp (Line 36, `controller.HandleInput(running, snakes_)`;) |
 
 __Object Oriented Programming__
 
