@@ -70,8 +70,8 @@ __Object Oriented Programming__
 | :heavy_check_mark: | Classes encapsulate behavior. | Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions.|
 | :heavy_check_mark: | Classes follow an appropriate inheritance hierarchy. | Inheritance hierarchies are logical. Composition is used instead of inheritance when appropriate. Abstract classes are composed of pure virtual functions. Override functions are specified.|
 | :heavy_check_mark: | Overloaded functions allow the same function to operate on different parameters. | One function is overloaded with different signatures for the same function name. |
-|  | Derived class functions override virtual base class functions. |One member function in an inherited class overrides a virtual base class member function.|
-|  | Templates generalize functions in the project. | One function is declared with a template that allows it to accept a generic parameter.|
+| :heavy_check_mark:| Derived class functions override virtual base class functions. |One member function in an inherited class overrides a virtual base class member function.|
+| :heavy_check_mark: | Templates generalize functions in the project. | One function is declared with a template that allows it to accept a generic parameter.|
 
 __Memory Management__
 
@@ -80,7 +80,7 @@ __Memory Management__
 | :heavy_check_mark: | The project makes use of references in function declarations. | At least two variables are defined as references, or two functions use pass-by-reference in the project code.| game.cpp (Line 128), snake.h (Line 41), game.h (Line 20, 33), controller.h (Line 8-11) |
 |  | The project uses destructors appropriately. | At least one class that uses unmanaged dynamically allocated memory, along with any class that otherwise needs to modify state upon the termination of an object, uses a destructor. |
 |  | The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate. | The project follows the Resource Acquisition Is Initialization pattern where appropriate, by allocating objects at compile-time, initializing objects when they are declared, and utilizing scope to ensure their automatic destruction.|
-|  | The project follows the Rule of 5. | For all classes, if any one of the copy constructor, copy assignment operator, move constructor, move assignment operator, and destructor are defined, then all of these functions are defined.|
+| :heavy_check_mark: | The project follows the Rule of 5. | For all classes, if any one of the copy constructor, copy assignment operator, move constructor, move assignment operator, and destructor are defined, then all of these functions are defined.|
 | :heavy_check_mark: | The project uses move semantics to move data, instead of copying it, where possible. | For classes with move constructors, the project returns objects of that class by value, and relies on the move constructor, instead of copying the object. |
 | :heavy_check_mark: | The project uses smart pointers instead of raw pointers. | The project uses at least one smart pointer: unique_ptr, shared_ptr, or weak_ptr. The project does not use raw pointers.|
 
@@ -90,5 +90,5 @@ __Concurrency__
 |-- | -- | --|
 | :heavy_check_mark: | The project uses multithreading. | The project uses multiple threads in the execution.| game.cpp (Line 79) |
 |  | A promise and future is used in the project. | A promise and future is used to pass data from a worker thread to a parent thread in the project code.|
-| :heavy_check_mark: | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.|
-| :heavy_check_mark: | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|
+|  | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.|
+|  | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|
