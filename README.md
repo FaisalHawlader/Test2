@@ -49,7 +49,7 @@ __Compiling and Testing (All Rubric Points REQUIRED)__
 
 |DONE | CRITERIA | MEETS SPECIFICATIONS| WHERE |
 |-- | -- | --| -- |
-| :heavy_check_mark: | The submission must compile and run. | The project code must compile and run without errors. <br />We strongly recommend using cmake and make, as provided in the starter repos. If you choose another build system, the code must compile on any reviewer platform. |
+| :heavy_check_mark: | The submission must compile and run. | The project code must compile and run without errors. <br />We strongly recommend using `cmake` and `make`, as provided in the starter repos. If you choose another build system, the code must compile on any reviewer platform. |
 
 __Loops, Functions, I/O__
 
