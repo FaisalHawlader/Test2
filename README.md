@@ -91,4 +91,4 @@ __Concurrency__
 | :heavy_check_mark: | The project uses multithreading. | The project uses multiple threads in the execution.| game.cpp (Line 79) |
 |  | A promise and future is used in the project. | A promise and future is used to pass data from a worker thread to a parent thread in the project code.|
 | :heavy_check_mark: | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.|
-|  | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|
+| :heavy_check_mark: | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|
